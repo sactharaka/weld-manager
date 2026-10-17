@@ -13,7 +13,7 @@ export interface WeldPoint {
 
 export interface Drawing {
   page: number; // 0-based PDF page index
-  dwg: string; // drawing number e.g. NBW-1560-M-00059
+  dwg: string; // drawing number e.g. ABC-1000-M-00001
   rev?: string;
   w: number; // page size in PDF points
   h: number;
